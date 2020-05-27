@@ -1,0 +1,12 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "Allows for management of employees using node,inquirer, and mysql",
+    "main": "employeeTracker.js",
+    "dependencies": {
+        "asciiart-logo": "^0.2.6",
+        "console.table": "^0.10.0",
+        "inquirer": "^7.0.0",
+        "mysql": "^2.17.1"
+    }
+}
