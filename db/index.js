@@ -5,9 +5,17 @@ class DB {
         this.connection = connection;
 
     }
-    getAllAuctions() {
+    getAllEmployees() {
 
-        return this.connection.query("SELECT * FROM auctions");
+        return this.connection.query("SELECT * FROM employees");
+    }
+    getAllDepartments() {
+
+        return this.connection.query("SELECT * FROM departments");
+    }
+    getAllRoles() {
+
+        return this.connection.query("SELECT * FROM roles");
     }
 }
 module.exports = new DB(connection);
